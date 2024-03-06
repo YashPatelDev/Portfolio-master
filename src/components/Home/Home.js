@@ -31,12 +31,15 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
+            <div className="avatar-container">
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
+              </div>
+              
             </Col>
           </Row>
         </Container>
